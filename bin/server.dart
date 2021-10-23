@@ -20,7 +20,7 @@ List<String> quotes = [
   int length = 0;
 void main() async{
  
-  final bot = Nyxx("OTAxMjE1NTU4NTM4Nzg0Nzg4.YXMoZA.lxjTejT0BgP0mYfL_kPXYw5Mpsw", GatewayIntents.allUnprivileged);
+  final bot = Nyxx("<Your Toke>", GatewayIntents.allUnprivileged);
   await readFromFile();
  
   
