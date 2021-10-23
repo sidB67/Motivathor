@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  motivathor:
+    image: sid/motivathor
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./quotes.txt:/app/bin/quotes.txt
+    restart: always
